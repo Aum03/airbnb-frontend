@@ -7,6 +7,7 @@ function SmallCard({img,location,distance}) {
      hover:bg-gray-100 hover:scale-105 transition transform duration-150 ease-out'>
  <div className='relative h-16 w-16'>
             <Image className='rounded-lg'
+            alt='small-image'
             src={img}
             layout='fill'/>
         </div>

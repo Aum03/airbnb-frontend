@@ -8,7 +8,7 @@ function InfoCard({ img, location, title, description, star, price, total }) {
     <div className="flex py-7 px-2 border-b hover:opacity-80 hover:shadow-lg
     tranform transition duration-200 ease-out">
       <div className="relative h-24 w-40 md:h-52 md:w-80">
-        <Image src={img} layout="fill" className="rounded-2xl" objectFit="cover" />
+        <Image alt="info-image" src={img} layout="fill" className="rounded-2xl" objectFit="cover" />
       </div>
       <div className="flex flex-col flex-grow pl-5">
         <div className="flex justify-between">
